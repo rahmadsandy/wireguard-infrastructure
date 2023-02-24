@@ -62,6 +62,12 @@ ADMIN_PASSWORD=xxxxxxxxxxxxxxxx
 ADMIN_PASSWORD_HASH=JDJhJDA5JHcxSjZTd2gxTFF4dlUzdWJ5Zzdasdadadsasdasdasd0a3FFek44adsadasUlNajljbzVl
 WG_STATS_API=http://127.0.0.1:8182
 ```
+#### Wireguard Management
+![1](https://raw.githubusercontent.com/rahmadsandy/wireguard-infrastructure/master/static/wb-web1.png)
+![1](https://raw.githubusercontent.com/rahmadsandy/wireguard-infrastructure/master/static/wg-web2.png)
+![1](https://raw.githubusercontent.com/rahmadsandy/wireguard-infrastructure/master/static/wg-web-server1.png)
+![1](https://raw.githubusercontent.com/rahmadsandy/wireguard-infrastructure/master/static/wg-web-server2.png)
+![1](https://raw.githubusercontent.com/rahmadsandy/wireguard-infrastructure/master/static/wg-web-api.png)
 
 
 ## Monitoring (Prometheus & Grafana)
