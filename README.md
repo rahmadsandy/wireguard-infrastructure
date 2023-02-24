@@ -69,6 +69,8 @@ WG_STATS_API=http://127.0.0.1:8182
 ![1](https://raw.githubusercontent.com/rahmadsandy/wireguard-infrastructure/master/static/wg-web-server2.png)
 ![1](https://raw.githubusercontent.com/rahmadsandy/wireguard-infrastructure/master/static/wg-web-api.png)
 
+#### Custom Mail Letter
+![image](https://user-images.githubusercontent.com/57087446/221177055-c380c343-7e38-49c4-a48e-d4cc6d275a12.png)
 
 ## Monitoring (Prometheus & Grafana)
 ![1](https://user-images.githubusercontent.com/57087446/221109904-8fb90b0e-3e0a-4498-a748-117827361859.png)
