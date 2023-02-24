@@ -1,0 +1,35 @@
+version: '3.6'
+
+networks:
+  monitor-net:
+    driver: bridge
+
+services:
+  wgweb:
+    container_name: wgweb
+    build: 
+      context: .
+    volumes:
+      - /etc/wireguard:/data
+    expose:
+      - 8888/tcp
+    restart: always
+    networks:
+      - monitor-net
+  caddy:
+    image: caddy:2.3.0
+    container_name: caddywg
+    ports:
+      - "8282:8888"
+    volumes:
+      - ./caddy:/etc/caddy
+    environment:
+      - ADMIN_USER=${ADMIN_USER}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+      - ADMIN_PASSWORD_HASH=${ADMIN_PASSWORD_HASH}
+    networks:
+      - monitor-net
+    labels:
+      org.label-schema.group: "monitoring"
+
+

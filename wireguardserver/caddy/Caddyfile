@@ -1,0 +1,7 @@
+
+:8888 {
+    basicauth /* {
+        {$ADMIN_USER} {$ADMIN_PASSWORD_HASH}
+    }
+    reverse_proxy wgweb:8888
+}

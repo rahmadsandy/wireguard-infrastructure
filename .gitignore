@@ -109,6 +109,11 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+wireguardserver/.env
+wireguardclient/.env
+monitoring/.env
+
+.DS_Store
 
 # Spyder project settings
 .spyderproject

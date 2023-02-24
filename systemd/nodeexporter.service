@@ -1,0 +1,19 @@
+[Unit]
+Description=Wireguard VBOX General Node Service Node Exporter.
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/nodeexporter --web.listen-address=":2007"
+
+[Install]
+WantedBy=multi-user.target
+root@generalwireguard:/etc/systemd/system# cat nodeexporter.service 
+[Unit]
+Description=Wireguard VBOX General Node Service Node Exporter.
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/nodeexporter --web.listen-address=":2007"
+
+[Install]
+WantedBy=multi-user.target

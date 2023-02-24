@@ -1,0 +1,209 @@
+version: '3'
+services:
+  wgclient1:
+    container_name: wgclient1
+    build:
+      context: .
+    
+    volumes:
+      - ./conf/1.conf:/etc/wireguard/wg0.conf
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    privileged: true
+
+  wgclient2:
+    container_name: wgclient2
+    build:
+      context: .
+    
+    volumes:
+      - ./conf/2.conf:/etc/wireguard/wg0.conf
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    privileged: true
+
+
+  wgclient3:
+    container_name: wgclient3
+    build:
+      context: .
+    
+    volumes:
+      - ./conf/3.conf:/etc/wireguard/wg0.conf
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    privileged: true
+
+
+  wgclient4:
+    container_name: wgclient4
+    build:
+      context: .
+    
+    volumes:
+      - ./conf/4.conf:/etc/wireguard/wg0.conf
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    privileged: true
+
+
+  wgclient5:
+    container_name: wgclient5
+    build:
+      context: .
+    
+    volumes:
+      - ./conf/5.conf:/etc/wireguard/wg0.conf
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    privileged: true
+
+
+  wgclient6:
+    container_name: wgclient6
+    build:
+      context: .
+    
+    volumes:
+      - ./conf/6.conf:/etc/wireguard/wg0.conf
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    privileged: true
+
+
+  wgclient7:
+    container_name: wgclient7
+    build:
+      context: .
+    
+    volumes:
+      - ./conf/7.conf:/etc/wireguard/wg0.conf
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    privileged: true
+
+
+  wgclient8:
+    container_name: wgclient8
+    build:
+      context: .
+    
+    volumes:
+      - ./conf/8.conf:/etc/wireguard/wg0.conf
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    privileged: true
+
+
+  wgclient9:
+    container_name: wgclient9
+    build:
+      context: .
+    
+    volumes:
+      - ./conf/9.conf:/etc/wireguard/wg0.conf
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    privileged: true
+
+
+  wgclient10:
+    container_name: wgclient10
+    build:
+      context: .
+    
+    volumes:
+      - ./conf/10.conf:/etc/wireguard/wg0.conf
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    privileged: true
+
+
+  wgclient11:
+    container_name: wgclient11
+    build:
+      context: .
+    
+    volumes:
+      - ./conf/11.conf:/etc/wireguard/wg0.conf
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    privileged: true
+
+
+  wgclient12:
+    container_name: wgclient12
+    build:
+      context: .
+    
+    volumes:
+      - ./conf/12.conf:/etc/wireguard/wg0.conf
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    privileged: true
+
+
+  wgclient13:
+    container_name: wgclient13
+    build:
+      context: .
+    
+    volumes:
+      - ./conf/13.conf:/etc/wireguard/wg0.conf
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    privileged: true
+
+
+  wgclient14:
+    container_name: wgclient14
+    build:
+      context: .
+    
+    volumes:
+      - ./conf/14.conf:/etc/wireguard/wg0.conf
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    privileged: true
+
+
+  wgclient15:
+    container_name: wgclient15
+    build:
+      context: .
+    
+    volumes:
+      - ./conf/15.conf:/etc/wireguard/wg0.conf
+    restart: always
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    privileged: true
